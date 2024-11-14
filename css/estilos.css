@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+textarea {
+    font-family: "Fira Sans", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: white;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+
+.linksheader {
+    display: flex;
+    font-size: 20px;
+    color: rgb(158, 47, 66);
+    text-decoration: underline;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    color: rgb(158, 47, 66);
+    text-decoration: underline;
+    align-items: center;
+
+    li {
+        padding: 15px;
+    }
+}
+
+.logo {
+    width: 50px;
+
+}
+
+
+
+.imagenfondo {
+    background-image: url("../assets/img/frame-food-ingredients-baking-gently-pink-pastel-background-cooking-flat-lay-with-copy-space-top-view-baking-concept-flat-lay.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+
+    .tituloprincipal {
+        color: grey;
+        font-size: 50px;
+        padding-top: 100px;
+    }
+
+    .titulosecundario {
+        padding-top: 40px;
+        color: rgb(29, 62, 51);
+        font-size: 30px;
+    }
+
+    .parrafo {
+        padding-top: 30px;
+        color: black;
+        font-size: 25px;
+    }
+
+}
+
+.main {
+    background-color: rgb(252, 221, 226);
+}
+
+.productos {
+    padding: 10px 30px;
+    margin: 0 auto;
+    display: flex;
+    margin: 0%;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+
+    .fotos {
+        border: black;
+        text-align: center;
+        width: 300px;
+        height: 250px;
+        color: grey;
+
+        .imagen {
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+.subtitulo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(29, 62, 51);
+    font-size: 30px;
+    background-color: #ffffff61;
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+    padding-top: 30px;
+
+    form {
+        padding-top: 10px;
+    }
+
+    .input {
+        padding-top: 20px;
+    }
+
+    label {
+        padding-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 400px;
+        padding: 15px;
+        margin-top: 10px;
+        border: 1px solid rgb(255, 216, 223);
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .textarea {
+        width: 400px;
+        padding: 15px;
+        margin-top: 10px;
+        border: 1px solid rgb(255, 216, 223);
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    input[type="submit"] {
+        display: block;
+        margin: 15px auto;
+        padding: 10px 20px;
+        background-color: white;
+        color: rgb(255, 216, 223)fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+.footer {
+    background-color: gray;
+    padding: 10px 150px;
+    display: flex;
+    margin: 0%;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+
+    .logo {
+        width: 100px;
+
+
+    }
+
+
+
+    .contacto {
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        margin: 20px 0;
+    }
+
+    .iconos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .linksfooter {
+        font-size: 20px;
+        color: white;
+        align-items: center;
+    }
+
+
+    ul {
+        list-style: none;
+        flex-direction: column;
+
+        li {
+            padding: 3px;
+        }
+    }
+}
